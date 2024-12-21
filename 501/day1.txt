@@ -1,0 +1,118 @@
+
+What i have learned.
+Lesson -1 :Introduction to Nodejs.
+what is node js?
+Nodejs is a javascript runtime environment that enables the developer to run the javascript code on the server side. It is a google's chrome v8 javascript engine.It has a features like cross-platform,light weight and use for developing the scalable appilications. 
+
+to understand better as you are a 6 years old.
+
+Let consider you have a magic toy robot that can responds according to your instructions.For example when you ask questions it can give response like that.
+
+
+Node js Installation: https://youtu.be/o1izStF-DpU
+
+First project-
+
+After successfully Installation of nodejs we need to check the version as it installed correctly or not with command.
+
+#node --version
+
+then start the initialization by using the command:
+#npm init
+
+Package.json?
+
+This file is the heart of node.js appilication.This file contains the information about the name of the project,descripion,author,version,licences.And in future if we want to install the libraries for our project.Then all that dependencies also there in this Package.json file.
+
+My Package.json file
+
+{
+  "name": "501",
+  "version": "1.0.0",
+  "description": "My Notes",
+  "main": "day1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prabhas",
+  "license": "ISC"
+}
+
+
+Let's creating the first code
+
+lets say index.js
+
+function hello(){
+     console.log("Hello Welcome to My repo");
+}
+
+hello();
+
+output:
+PS C:\Users\B PRABHAS\OneDrive\Desktop\501> node day1.js
+Hello Welcome to My repo
+
+Lesson 2:
+
+Using Node.js REPL
+
+In this lesson we will learn more about the REPL stands for Read Evaluate Print Loop which is used to read and perform the calucations and can see using the console.log command.It is happening when we run the node command in the command prompt it will starts working.
+
+
+PS C:\Users\B PRABHAS\OneDrive\Desktop\501> node
+Welcome to Node.js v20.9.0.
+Type ".help" for more information.
+> 1+5
+6
+> console.log("Hello Amigos")
+Hello Amigos
+undefined
+> function hello(){
+... console.log("Welcome to REPL")}
+undefined
+> hello()
+Welcome to REPL
+undefined
+> str="nodejs"
+'nodejs'
+> str.
+... lowercase()
+Uncaught TypeError: str.lowercase is not a function
+> .save mysession
+Session saved to: mysession
+> .exit
+PS C:\Users\B PRABHAS\OneDrive\Desktop\501> node
+Welcome to Node.js v20.9.0.
+Type ".help" for more information.
+> .load mysession
+1+5
+console.log("Hello Amigos")
+function hello(){
+console.log("Welcome to REPL")}
+hello()
+str="nodejs"
+
+Hello Amigos
+Welcome to REPL
+'nodejs'
+
+
+### Using git to version control our code.
+
+when you working on a softwer project with your team-mates then it is difficult to track the changes in the code and it is difficult thing. so in this lesson we will learn about how to over come it.
+
+
+What is versio control system?
+
+As we know the an software product is developed by several engineers.A versio control system helps the developers to track the changes in the software code with interferering the one another.
+
+And people think that git and github are same but it is wrong git is a version control system that you can install to track and manage the code and Github is a hosting service that is use the git.
+
+For Ubuntu command to install git : sudo apt-get install git.
+
+Installation checkinge command : git --version
+
+Git Hoto?
+
+In this lesson we will learn more about the git commands 
