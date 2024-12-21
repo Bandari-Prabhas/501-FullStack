@@ -115,4 +115,4 @@ Installation checkinge command : git --version
 
 Git Hoto?
 
-In this lesson we will learn more about the git commands 
+In this lesson we will learn more about the git commands.
