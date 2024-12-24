@@ -1,0 +1,7 @@
+#Lesson -2 : Working with npm
+
+* why is there a need for a llibrary ecosystem ?
+
+In this lesson we will learn about the Node.js ecosystem and how Packages or libraries are used to improve the developer experience.We will learn about how to use these packages for the web appilications.
+
+
