@@ -1,0 +1,12 @@
+***** 4. Testing *****
+What is Testing?
+Software testig is nothing but the verifying and validating the Software does what it is supported to do.Testing can varying from validating the new lines of code to the full code.
+
+Why we need testig?
+
+The most reason to the particular Software to identify the errors or bugs when people make miskates.And these miskates are costly.
+
+There are mainly two types of test are there:
+1.Unit Testing
+2.Integration Testing
+
