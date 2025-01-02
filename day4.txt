@@ -10,3 +10,44 @@ There are mainly two types of test are there:
 1.Unit Testing
 2.Integration Testing
 
+1.Unit Testing 
+
+Unit testing is a software development process in which we can minor testable parts of an appilication are called units and they are individually and independently synchronized for proper operation.Let us understand with the simple example. We can write a test to validate if the function toggleTodoCompleteStatus works as intended. We can use the console.assert to assert the conditions.
+// assert.js
+
+let toggleTodoCompletedStatus = (todoItem) => {
+  return todoItem;
+};
+
+let testToggleCompletion = () => {
+  let item = {
+    title: 'Buy Milk',
+    completed: false,
+  }
+  item = toggleTodoCompletedStatus(item);
+
+  console.assert(item.completed === true, 'Todo item should be completed');
+
+}
+
+testToggleCompletion()
+
+after run the above code we will get and Assertion failed: Todo item should be completed. error message.
+
+if we replace the toggleTodoCompletedStatus with correct implementation and the error can goes away.
+
+let toggleTodoCompletedStatus = (todoItem) => {
+  todoItem.completed = !todoItem.completed;
+  return todoItem;
+};
+
+From the above example we only tested the single function , which tells us how the unit testing is going to happening and this is helpful to test each component in an extensive system.
+
+
+
+2.Integration Testing
+
+
+Integration tests ensures that different modules or units combined together for producing the desired output. All the modules or a few other modules are combined and tested. An integration test is a black-box testing.
+
+

@@ -1,0 +1,18 @@
+TDD workflow 
+
+Test Driven development 
+Test-driven development4 reverses traditional development and testing.Generally we write the code first,then write tests to verify if the feature is working properly or not.
+
+TDD is a cyclic process from Red-Green-Blue.
+
+Red stage
+Whenever the new feature is requested, the developer writes a test first. Uponn running the test, the suite will fail.This Red Phase indicates that the code does not work.
+
+Green Stage:
+
+In this stage, the developer writes the minimum code required to pass the test added.The test shows that the functionality of the code is already satisfied.
+
+
+Blue Stage:
+
+In this stage, the developer can modify the existing code without chaning the behaviour.This is also known as Refactoring.
